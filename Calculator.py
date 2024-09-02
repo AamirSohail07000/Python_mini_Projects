@@ -60,6 +60,9 @@ def handle_backspace(event=None):
 
 root = Tk()
 root.geometry("400x650")
+#Define max and min size
+root.minsize(380,615)
+root.maxsize(500,660)
 root.title("Calculator")
 
 scvalue = StringVar()
